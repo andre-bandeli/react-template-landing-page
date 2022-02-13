@@ -81,3 +81,24 @@
         }
     }
 }
+
+@media (max-width: 450px) {
+    
+    .header {
+        display: inline;
+        position: absolute;
+
+        .text {
+            width: 70%;
+            position: inherit;
+
+            .btn, h1, h2, h3 {
+                margin-left: 5vh;
+            }
+
+        }
+        .image {
+            visibility: hidden;
+        }
+    }
+}

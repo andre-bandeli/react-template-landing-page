@@ -44,3 +44,20 @@
     }
     
 }
+
+
+@media (max-width:450px) {
+    
+    .slider {
+        width: 100%;
+        .container-md {
+            width: 100%;
+            .col {
+                margin-left: 15%;
+                position: relative;
+                z-index: 5;
+            }
+        }
+    }
+    
+}
