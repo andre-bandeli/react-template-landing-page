@@ -1,4 +1,6 @@
-## React one-page desenvolvida com React js   ![Badge](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)
+## React one-page desenvolvida com React js 
+
+ ![Badge](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)
 
 Este é um projeto desenvolvido utilizando React e Javascript.
 Para ver online: https://andre-bandeli.github.io/React-Template/
