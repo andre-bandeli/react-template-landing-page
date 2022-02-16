@@ -1,7 +1,7 @@
-### React one-page desenvolvida com React js
+## React one-page desenvolvida com React js
 
-Este é um projeto desenvolvido utilizando React e javascrip one page.
-ver online: https://andre-bandeli.github.io/React-Template/
+Este é um projeto desenvolvido utilizando React e Javascript.
+Para ver online: https://andre-bandeli.github.io/React-Template/
 
 
 ### Para rodar o projeto:
@@ -12,13 +12,13 @@ ver online: https://andre-bandeli.github.io/React-Template/
 - Navegue até a pagina main
 - rode o comando: npm run
 
-### Dependências
+#### Dependências necessárias
  
 - npm i react-elastic-carousel
 - npm i sass
 
 
-### Deployment
+#### Deploy da aplicação
 
 Para realizar o deploy do projeto, rode o comando: npm run build
 
