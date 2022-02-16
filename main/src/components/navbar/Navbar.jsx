@@ -1,5 +1,6 @@
 import "./navbar.scss"
 
+
 import React, { useEffect, useState } from 'react';
 
 export default function Navbar() {
@@ -30,16 +31,16 @@ export default function Navbar() {
                         <ul>
                             
                                 <li>
-                                    Home
+                                   <a href="/">Home </a> 
                                 </li>
                                 <li>
-                                    Projects
+                                   <a href="#slider">Clientes</a> 
                                 </li>
                                 <li>
-                                    About
+                                   <a href="#projetos">Projetos</a> 
                                 </li>
                                 <li>
-                                    Contact
+                                  <a href="#about">Sobre</a>  
                                 </li>
                             
                         </ul>

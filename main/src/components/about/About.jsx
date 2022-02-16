@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className="about">
+    <div id="about">
         <h1>
           About Us
         </h1>

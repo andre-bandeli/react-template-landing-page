@@ -1,0 +1,314 @@
+
+
+#projetos {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 5;
+    margin-top: 20vh;
+
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+
+
+    .container {
+        max-width: 85vw;
+        width:90%;
+        height: 80%;
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: absolute;
+        display: flex;
+        background-color: transparent;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        backdrop-filter:blur(0px);
+
+        .box {
+            display:  flex;
+            width: 100%;
+            .left {
+                width: 80%;
+                height: 100%;
+                margin-left: 10vh;
+                background-color: rgba(3, 3, 3, 0.568);
+                margin-top: auto;
+                margin-bottom: auto;
+                border-radius: 15px;
+                backdrop-filter:blur(3px);
+                display: inline-block;
+    
+                .top {
+                    width: 50%;
+                    height: 5vh;
+    
+                    margin-left: 50%;
+    
+                    h4 {
+                        font-family: 'Open Sans', sans-serif;
+                        color: white;
+                        letter-spacing: 3px;
+                        margin-left: 5vh;
+                    }
+                }
+                .text {
+                    width: 100%;
+                    height: 25vh;
+    
+    
+                    h2 {
+                        margin-left: 5vh;
+                        text-align: left;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 30px;
+                        color: white;
+                    }
+                    h3 {
+                        margin-left: 5vh;
+                        text-align: left;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 18px;
+                        color: rgba(255, 255, 255, 0.815);
+                        font-weight: 100;
+                        margin-top: -1.5vh;
+                    }
+                    h4 {
+    
+                        margin-left: 5vh;
+                        text-align: left;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 18px;
+                        color: rgba(255, 255, 255, 0.815);
+                        font-weight: 100;
+                        margin-top: 1.5vh;
+                    }
+    
+                }
+    
+                .btn {
+                    width: 100%;
+                    height: 25vh;
+    
+                    h2 {
+                        margin-left: 5vh;
+                        text-align: left;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 25px;
+                        color: rgba(255, 255, 255, 0.815);
+                        font-weight:600;
+                        margin-top: 5vh;
+    
+                    }
+    
+                    .col {
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-left: 3vh;
+    
+                        .btn {
+                            margin-left: 2vh;
+                            margin-top: 1.5vh;
+                            width: 25%;
+                            height: 5vh;
+                            border-radius: 20px;
+                            background-color: transparent;
+                            border: 1px solid blue;
+                            font-family: 'Sanchez', serif;
+                            color: white;
+                            font-size: 15px;
+    
+                        }
+                        .btn:hover {
+                            background-color: rgba(0, 0, 255, 0.192);
+                            box-shadow: rgba(60, 111, 187, 0.219) 0px 5px 15px;
+    
+                        }
+                    }
+    
+                }
+    
+            }
+    
+            .rigth {
+                width: 5%;
+                height: 60%;
+                margin-left: 75vh;
+                margin-top: 24vh;
+                position: absolute;
+                background-color: transparent;
+                border-radius: 15px;
+
+               iframe {
+                   margin-top: -20vh;
+
+                   border: none;
+               }
+            
+            }
+        }
+
+        
+    }
+}
+
+
+@media (max-width: 450px) {
+    
+    .projetos {
+
+        h1 {
+
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+    
+    
+        .container {
+            max-width: 95vw;
+            width:100%;
+            height: 100%;
+            margin-top: 7%;
+            margin-left: 5%;
+            margin-right: 5%;
+            position: absolute;
+            display: flex;
+    
+            overflow-x: auto;
+            scroll-behavior: smooth;
+    
+            .box {
+                display:  inline;
+                width: 100%;
+                height: 120%;
+                margin-left: -22vh;
+                
+                .left {
+                    width: 100%;
+                    height: 80vh;
+                    margin-left: 10vh;
+                    background-color: rgba(3, 3, 3, 0.568);
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    border-radius: 15px;
+                    backdrop-filter:blur(3px);
+                    display: inline-block;
+        
+                    .top {
+                        width: 50%;
+                        height: 5vh;
+        
+                        margin-left: 50%;
+        
+                        h4 {
+                            font-family: 'Open Sans', sans-serif;
+                            color: white;
+                            letter-spacing: 3px;
+                            margin-left: 5vh;
+                        }
+                    }
+                    .text {
+                        width: 100%;
+                        height: 25vh;
+        
+        
+                        h2 {
+                            margin-left: 2vh;
+                            text-align: left;
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 20px;
+                            color: white;
+                        }
+                        h3 {
+                            margin-left: 2vh;
+                            text-align: left;
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 18px;
+                            color: rgba(255, 255, 255, 0.815);
+                            font-weight: 100;
+                            margin-top: -1.5vh;
+                        }
+                        h4 {
+        
+                            margin-left: 2vh;
+                            margin-right: 1vh;
+                            text-align: justify;
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 15px;
+                            color: rgba(255, 255, 255, 0.815);
+                            font-weight: 100;
+                            margin-top: 1.5vh;
+                        }
+        
+                    }
+        
+                    .btn {
+                        width: 100%;
+                        height: 25vh;
+                        margin-top: 12vh;
+        
+                        h2 {
+                            margin-left: 2vh;
+                            text-align: left;
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 25px;
+                            color: rgba(255, 255, 255, 0.815);
+                            font-weight:600;
+                            margin-top: 3vh;
+        
+                        }
+        
+                        .col {
+                            width: 100%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin-left: 1vh;
+        
+                            .btn {
+                                margin-left: 2vh;
+                                margin-top: 1.5vh;
+                                width: 35%;
+                                height: 5vh;
+                                border-radius: 20px;
+                                background-color: transparent;
+                                border: 1px solid blue;
+                                font-family: 'Sanchez', serif;
+                                color: white;
+                                font-size: 12px;
+        
+                            }
+                            .btn:hover {
+                                background-color: rgba(0, 0, 255, 0.192);
+                                box-shadow: rgba(60, 111, 187, 0.219) 0px 5px 15px;
+        
+                            }
+                        }
+        
+                    }
+        
+                }
+        
+                .rigth {
+                    width: 5%;
+                    height: 60%;
+                    margin-left: 80vh;
+                    margin-top: 24vh;
+                    position: absolute;
+                    background-color: rgba(136, 16, 16, 0.568);
+                    border-radius: 15px;
+                
+                }
+            }
+    
+            
+        }
+    }
+    
+
+}

@@ -13,7 +13,7 @@ export default function Header() {
                 deleniti ipsum fuga, iure ut voluptatibus! Voluptatum.</h3>
             
             <button className='btn'>
-                See more
+               <a href="https://github.com/andre-bandeli"> See more</a>
             </button>
         </div>
         <div className="image">

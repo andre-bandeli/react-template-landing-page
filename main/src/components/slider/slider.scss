@@ -1,17 +1,23 @@
 
 
-.slider {
-    position: absolute;
+#slider {
+    position: relative;
     width: 100%;
     height: 100vh;
-    margin-top: 100vh;
+    margin-top: 30vh;
+
+    h1 {
+        font-size: 50px;
+        color: white;
+    
+      }
     
 
     .container-md {
         display: flex;
-
-        margin-top: 20vh;
-        margin-left: 15%;
+        margin-top: 10vh;
+        margin-left: 20%;
+        margin-right: 20%;
         width: 80%;
         height: 70%;
         position: absolute;

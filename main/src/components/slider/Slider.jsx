@@ -3,7 +3,8 @@ import React from 'react'
 
 export default function Slider() {
   return (
-    <div className='slider'>
+    <div id='slider'>
+      <h1>Nossos Clientes</h1>
       <div className="container-md">
         <div className="col">
           <h2>
