@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
 .header {
     position: relative;
     width: 80%;
-    height: 50vh;
+    height: 50%;
 
     margin-top: 25vh;
     margin-right: 25vh;
@@ -10,7 +11,7 @@
     display: flex;
 
     .text {
-        width: 40%;
+        width: 50%;
         height: 100%;
 
         display: inline;  
@@ -20,7 +21,7 @@
         h1 {
             font-size: 100px;
             font-family: 'Ubuntu', sans-serif;   
-            margin-top: 15vh;
+            margin-top: 10vh;
             font-weight: 500;
             color: rgb(141, 141, 141);
         }
@@ -67,47 +68,6 @@
             z-index: 1;
 
            
-        }
-    }
-}
-
-
-@media (max-width: 750px) {
-    
-    .header {
-        display: inline;
-        position: absolute;
-
-        .text {
-            width: 60%;
-            position: inherit;
-            margin-left: -50vh;
-
-        }
-
-        .image {
-            visibility: hidden;
-        }
-    }
-}
-
-@media (max-width: 450px) {
-    
-    .header {
-        display: inline;
-        position: absolute;
-
-        .text {
-            width: 70%;
-            position: inherit;
-
-            .btn, h1, h2, h3 {
-                margin-left: 5vh;
-            }
-
-        }
-        .image {
-            visibility: hidden;
         }
     }
 }
