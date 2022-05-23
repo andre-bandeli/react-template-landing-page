@@ -1,32 +1,35 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap');
 
 #slider {
     position: relative;
     width: 100%;
     height: 100vh;
     margin-top: 30vh;
+    font-family: 'Montserrat', sans-serif;
 
 
     h1 {
         font-size: 50px;
         color: white;
+        margin-bottom: 5vh;
     
       }
     
 
     .container-md {
         display: flex;
-        margin-top: 10vh;
+        margin-top: 5vh;
         margin-left: auto;
         margin-right: auto;
         width: 85%;
         height: 80%;
         flex-wrap: wrap;
         align-items: center;
+        cursor: pointer;
 
         .col {
             width: 28%;
-            height: 40%;
+            height: 50%;
             background-color: rgba(0, 0, 0, 0.425);
             margin-left: 2.5%;
             margin-right: 2.5%;
@@ -38,9 +41,10 @@
 
             img {
                 width: 80%;
-                height: 50%;
+                height: 60%;
                 padding-bottom: 5%;
-                margin-top: 15%;
+                margin-top: 20%;
+                margin-bottom: 25%;
 
             }
 
@@ -60,10 +64,14 @@
         .container-md {
             width: 100%;
             display: inline;
+            margin-bottom: 10vh;
 
             .col {
-                width: 60%;
+
+                width: 70%;
+                height: 30%;
                 margin-top: 3vh;
+                margin-bottom: 3vh;
                 margin-left: auto;
                 margin-right: auto;
             }

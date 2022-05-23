@@ -16,11 +16,7 @@ export default function Header() {
                <a href="https://github.com/andre-bandeli"> See more</a>
             </button>
         </div>
-        <div className="image">
-            <div className="cont">
-                
-            </div>
-        </div>
+       
     </div>
   )
 }
