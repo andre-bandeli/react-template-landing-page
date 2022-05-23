@@ -10,7 +10,7 @@ Landing Page criada utilizando React JS e react-elastic-carousel.
 
 ### Veja Online
 
-https://netflix-template-heroku.herokuapp.com/
+https://andre-bandeli.github.io/react-template-landing-page/
 
 
 ### Ferramentas utilizadas
